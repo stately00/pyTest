@@ -11,5 +11,6 @@ def handler(event, context):
             'body': json.dumps(data),
             'headers': {'Content-Type': 'application/json'}}
 
+print("wow, this is awesome")
 
 print('hello,world')
